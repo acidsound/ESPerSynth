@@ -1,0 +1,219 @@
+# keywords.txt - Arduino Library Keywords
+# Contributes to Arduino IDE syntax highlighting
+# Documentation: https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5:-Library-specification#keywords
+
+# ========================================
+# Core Classes (KEYWORD1)
+# ========================================
+TR808DrumMachine	KEYWORD1
+TR808Oscillator	KEYWORD1
+TR808BridgedTOscillator	KEYWORD1
+TR808InharmonicOscillator	KEYWORD1
+TR808Envelope	KEYWORD1
+TR808Filter	KEYWORD1
+TR808Processor	KEYWORD1
+TR808Kick	KEYWORD1
+TR808Snare	KEYWORD1
+TR808Cymbal	KEYWORD1
+TR808HiHat	KEYWORD1
+TR808Tom	KEYWORD1
+TR808Conga	KEYWORD1
+TR808Rimshot	KEYWORD1
+TR808Maracas	KEYWORD1
+TR808Clap	KEYWORD1
+TR808Cowbell	KEYWORD1
+
+# Mozzi Integration Classes (v1.1.0+)
+MozziSystem	KEYWORD1
+MozziTR808Integration	KEYWORD1
+Esp32C3AudioTimer	KEYWORD1
+PerformanceMonitor	KEYWORD1
+
+# ========================================
+# Methods and Functions (KEYWORD2)
+# ========================================
+
+# Main Class Methods
+triggerKick	KEYWORD2
+triggerSnare	KEYWORD2
+triggerCymbal	KEYWORD2
+triggerHiHat	KEYWORD2
+triggerTom	KEYWORD2
+triggerConga	KEYWORD2
+triggerRimshot	KEYWORD2
+triggerMaracas	KEYWORD2
+triggerClap	KEYWORD2
+triggerCowbell	KEYWORD2
+process	KEYWORD2
+setMasterVolume	KEYWORD2
+setKickDecay	KEYWORD2
+setKickTone	KEYWORD2
+setSnareTone	KEYWORD2
+setSnareSnappy	KEYWORD2
+setCymbalDecay	KEYWORD2
+setCymbalTone	KEYWORD2
+setHiHatDecay	KEYWORD2
+setTomTuning	KEYWORD2
+setCongaTuning	KEYWORD2
+
+# Oscillator Methods
+setFrequency	KEYWORD2
+setAmplitude	KEYWORD2
+resetPhase	KEYWORD2
+updatePhase	KEYWORD2
+generateSine	KEYWORD2
+generateSquare	KEYWORD2
+generateSaw	KEYWORD2
+generateWhiteNoise	KEYWORD2
+generatePinkNoise	KEYWORD2
+
+# Envelope Methods
+setAttack	KEYWORD2
+setDecay	KEYWORD2
+setRelease	KEYWORD2
+setSustain	KEYWORD2
+trigger	KEYWORD2
+release	KEYWORD2
+getValue	KEYWORD2
+isNoteActive	KEYWORD2
+
+# Filter Methods
+setCutoff	KEYWORD2
+setResonance	KEYWORD2
+process	KEYWORD2
+reset	KEYWORD2
+processLowPass	KEYWORD2
+processHighPass	KEYWORD2
+processBandPass	KEYWORD2
+
+# Processor Methods
+setGain	KEYWORD2
+setSaturation	KEYWORD2
+process	KEYWORD2
+saturate	KEYWORD2
+
+# Special Oscillator Methods
+setDecay	KEYWORD2
+generate	KEYWORD2
+setFrequencies	KEYWORD2
+setMixRatio	KEYWORD2
+
+# Individual Drum Methods
+setTone	KEYWORD2
+setSnappy	KEYWORD2
+setOpen	KEYWORD2
+setLevel	KEYWORD2
+isActive	KEYWORD2
+
+# Mozzi Integration Methods (v1.1.0+)
+initialize	KEYWORD2
+startAudio	KEYWORD2
+stopAudio	KEYWORD2
+restartAudio	KEYWORD2
+printSystemStatus	KEYWORD2
+printPerformanceReport	KEYWORD2
+runPerformanceBenchmark	KEYWORD2
+runAudioTest	KEYWORD2
+isSystemHealthy	KEYWORD2
+emergencyStop	KEYWORD2
+enablePerformanceMonitoring	KEYWORD2
+
+# ========================================
+# Constants (LITERAL1)
+# ========================================
+
+# Sample Rates
+DEFAULT_SAMPLE_RATE	LITERAL1
+MAX_SAMPLE_RATE	LITERAL1
+MIN_SAMPLE_RATE	LITERAL1
+
+# Buffer Sizes
+I2S_BUFFER_SIZE	LITERAL1
+MIN_BUFFER_SIZE	LITERAL1
+MAX_BUFFER_SIZE	LITERAL1
+AUDIO_BUFFER_SIZE	LITERAL1
+
+# Audio Settings
+I2S_BITS_PER_SAMPLE	LITERAL1
+I2S_CHANNELS	LITERAL1
+STEREO_OUTPUT	LITERAL1
+MONO_OUTPUT	LITERAL1
+
+# Pin Definitions
+I2S_WS_PIN	LITERAL1
+I2S_BCK_PIN	LITERAL1
+I2S_DATA_PIN	LITERAL1
+I2S_MCK_PIN	LITERAL1
+
+# Performance Settings
+MAX_POLYPHONY	LITERAL1
+PERFORMANCE_MONITORING	LITERAL1
+DEBUG_MODE	LITERAL1
+VERBOSE_DEBUG	LITERAL1
+
+# Mozzi Integration Settings
+MOZZI_AUDIO_RATE	LITERAL1
+MOZZI_CONTROL_RATE	LITERAL1
+MOZZI_OUTPUT_BUFFER_SIZE	LITERAL1
+MOZZI_CIRCULAR_BUFFER_SIZE	LITERAL1
+USE_ESP32_C3_TIMER_INTERRUPT	LITERAL1
+ESP32C3_TIMER_INTERRUPT	LITERAL1
+ESP32C3_OPTIMIZED_ISR	LITERAL1
+ESP32C3_DOUBLE_BUFFERING	LITERAL1
+
+# Feature Flags
+ENABLE_SEQUENCER	LITERAL1
+ENABLE_MIDI	LITERAL1
+ENABLE_AUTO_SAVE	LITERAL1
+AUTO_TEST_ON_STARTUP	LITERAL1
+
+# Drum Parameters
+DEFAULT_MASTER_VOLUME	LITERAL1
+DEFAULT_KICK_DECAY	LITERAL1
+DEFAULT_KICK_TONE	LITERAL1
+DEFAULT_SNARE_TONE	LITERAL1
+DEFAULT_SNARE_SNAPPY	LITERAL1
+DEFAULT_CYMBAL_DECAY	LITERAL1
+DEFAULT_CYMBAL_TONE	LITERAL1
+DEFAULT_HIHAT_DECAY	LITERAL1
+DEFAULT_TOM_TUNING	LITERAL1
+DEFAULT_CONGA_TUNING	LITERAL1
+
+# MIDI Notes
+MIDI_KICK_NOTE	LITERAL1
+MIDI_SNARE_NOTE	LITERAL1
+MIDI_CYMBAL_NOTE	LITERAL1
+MIDI_HIHAT_CLOSED_NOTE	LITERAL1
+MIDI_HIHAT_OPEN_NOTE	LITERAL1
+MIDI_TOM_LOW_NOTE	LITERAL1
+MIDI_TOM_MID_NOTE	LITERAL1
+MIDI_TOM_HIGH_NOTE	LITERAL1
+MIDI_CONGA_LOW_NOTE	LITERAL1
+MIDI_CONGA_HIGH_NOTE	LITERAL1
+MIDI_RIMSHOT_NOTE	LITERAL1
+MIDI_MARACAS_NOTE	LITERAL1
+MIDI_CLAP_NOTE	LITERAL1
+MIDI_COWBELL_NOTE	LITERAL1
+
+# ========================================
+# Data Types (LITERAL2)
+# ========================================
+
+DrumPattern	LITERAL2
+PerformanceMetrics	LITERAL2
+
+# ========================================
+# Status Words
+# ========================================
+# These are commonly used status indicators that should be highlighted differently
+
+# Status Indicators (LITERAL1)
+READY	LITERAL1
+RUNNING	LITERAL1
+STOPPED	LITERAL1
+ACTIVE	LITERAL1
+INACTIVE	LITERAL1
+SUCCESS	LITERAL1
+FAILED	LITERAL1
+ENABLED	LITERAL1
+DISABLED	LITERAL1

@@ -1,0 +1,152 @@
+MIT License
+
+Copyright (c) 2025 ESP32C3 TR-808 Drum Machine Project Team
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+================================================================================
+
+ESP32C3 TR-808 Drum Machine Library License Notice
+
+This library provides an implementation of the Roland TR-808 drum machine
+algorithm for ESP32C3 microcontrollers. The TR-808 is a legendary drum
+machine originally manufactured by Roland Corporation.
+
+TR-808 is a trademark of Roland Corporation. This software library is not
+affiliated with, endorsed by, or sponsored by Roland Corporation.
+
+The algorithmic synthesis techniques used in this library are based on:
+1. Publicly available research papers and technical documentation
+2. Reverse engineering efforts by the audio synthesis community
+3. Creative Commons and open source references
+
+This library aims to provide educational value and hobbyist enjoyment while
+respecting the intellectual property rights of original designers.
+
+For commercial use of TR-808 sounds, please consult with Roland Corporation
+or use licensed samples from authorized providers.
+
+Original TR-808 was manufactured by:
+Roland Corporation
+2036-1 Nakacho, Hamamatsu-shi
+Shizuoka-ken, 433-8114, Japan
+https://www.roland.com/
+
+================================================================================
+
+Third-Party Dependencies
+
+This library may include or depend upon third-party software components
+subject to their own licenses. Please refer to individual source files
+for specific attribution and license information.
+
+Arduino Framework:
+Copyright (c) 2005-2018 Arduino LLC
+License: LGPL 2.1 or later
+
+ESP32 Platform:
+Copyright (c) 2018 Espressif Systems
+License: Apache License 2.0
+
+================================================================================
+
+Contact Information
+
+For questions regarding this license or this software library:
+
+Project Repository: https://github.com/your-username/esp32c3-tr808-library
+Email: legal@tr808-esp32c3.com
+Website: https://tr808-esp32c3-project.github.io
+
+================================================================================
+
+Educational Use Disclaimer
+
+This software library is intended for educational and hobbyist purposes.
+While every effort has been made to ensure accuracy and quality, the
+authors make no warranties about the accuracy, reliability, completeness,
+or suitability of this software.
+
+Users are responsible for:
+1. Verifying audio quality for their specific use case
+2. Testing the software in their intended hardware environment
+3. Complying with all applicable local laws and regulations
+4. Obtaining proper licenses for commercial audio use
+
+The authors shall not be liable for any damages, losses, or legal issues
+arising from the use of this software.
+
+================================================================================
+
+Attribution Requirements
+
+When using this library in your projects, please consider acknowledging
+the project with:
+
+"Built with ESP32C3 TR-808 Drum Machine Library"
+(https://github.com/your-username/esp32c3-tr808-library)
+
+This is appreciated but not required under the MIT license terms.
+
+================================================================================
+
+Open Source Commitment
+
+This project is committed to open source principles:
+1. Transparent development process
+2. Community-driven development
+3. Accessible documentation
+4. Inclusive collaboration
+5. Educational value
+
+We welcome contributions from developers worldwide and strive to maintain
+a welcoming, inclusive community for all participants.
+
+For contribution guidelines, please see CONTRIBUTING.md
+
+================================================================================
+
+Version History
+
+v1.0.0 (2025-10-30)
+- Initial release
+- Complete TR-808 drum synthesis implementation
+- ESP32C3 optimization
+- Real-time I2S audio output
+- Comprehensive documentation and examples
+
+Future versions will maintain backward compatibility when possible and
+follow semantic versioning principles.
+
+================================================================================
+
+Final Notes
+
+Thank you for using the ESP32C3 TR-808 Drum Machine Library!
+
+This project represents hundreds of hours of research, development, and
+testing to bring you an authentic TR-808 experience on modern hardware.
+
+We hope this library inspires creativity and helps you create amazing
+music with the legendary TR-808 sound.
+
+Happy drumming! 🥁🎵
+
+- The ESP32C3 TR-808 Project Team
+October 30, 2025
