@@ -74,7 +74,7 @@ git clone https://github.com/acidsound/ESPerSynth.git
 cd ESPerSynth
 
 # 2. 원하는 예제 폴더로 이동
-cd examples/Audio_EspherSynrh
+cd examples/Audio_ESPerSynth
 
 # 3. VS Code로 열기
 code .
@@ -152,7 +152,7 @@ VS Code에서 PlatformIO가 자동으로 프로젝트를 인식하고 필요한 
 
 ```bash
 # 프로젝트 디렉토리로 이동
-cd examples/Audio_EspherSynrh
+cd examples/Audio_ESPerSynth
 
 # 빌드만
 pio run
@@ -172,7 +172,7 @@ pio run
 
 ## 예제별 설정
 
-### 1. Audio_EspherSynrh (Audio.h 라이브러리)
+### 1. Audio_ESPerSynth (Audio.h 라이브러리)
 
 **특징**: 가장 안정적인 I2S 출력, 권장 방식
 
@@ -194,7 +194,7 @@ upload_speed = 921600
 monitor_speed = 115200
 ```
 
-### 2. PWM_EspherSynrh (PWM 방식)
+### 2. PWM_ESPerSynth (PWM 방식)
 
 **특징**: 최소 메모리 사용, 외부 라이브러리 불필요
 
@@ -216,7 +216,7 @@ upload_speed = 921600
 monitor_speed = 115200
 ```
 
-### 3. Mozzi_EspherSynrh (Mozzi 라이브러리)
+### 3. Mozzi_ESPerSynth (Mozzi 라이브러리)
 
 **특징**: 고급 사운드 합성 기능
 

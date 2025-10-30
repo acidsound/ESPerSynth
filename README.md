@@ -89,12 +89,12 @@ CPU Frequency: 160MHz
 
 ```
 /
-├── code/EspherSynrh/              # Arduino 라이브러리
+├── code/ESPerSynth/              # Arduino 라이브러리
 │   ├── src/                         # 코어 라이브러리
 │   ├── examples/                    # 6가지 예제
-│   │   ├── Audio_EspherSynrh/     # ⭐ Audio.h 버전
-│   │   ├── PWM_EspherSynrh/       # PWM 버전  
-│   │   └── Mozzi_EspherSynrh/     # Mozzi 버전
+│   │   ├── Audio_ESPerSynth/     # ⭐ Audio.h 버전
+│   │   ├── PWM_ESPerSynth/       # PWM 버전  
+│   │   └── Mozzi_ESPerSynth/     # Mozzi 버전
 │   └── library.properties           # 라이브러리 메타데이터
 ├── docs/                            # 완전한 문서
 │   ├── esp32c3_tr808_build_guide.md # ⭐ 빌드 문제 해결 가이드
@@ -121,7 +121,7 @@ git clone https://github.com/acidsound/ESPerSynth.git
 cd ESPerSynth
 
 # 2. 예제 폴더로 이동
-cd examples/Audio_EspherSynrh
+cd examples/Audio_ESPerSynth
 
 # 3. 빌드 + 업로드
 pio run --target upload

@@ -28,7 +28,7 @@
 3. **라이브러리 개발 환경**
    ```bash
    cd ~/Documents/Arduino/libraries/
-   git clone https://github.com/your-username/esp32c3-tr808-library.git EspherSynrh
+   git clone https://github.com/your-username/esp32c3-tr808-library.git ESPerSynth
    ```
 
 ## 📝 코드 스타일 가이드
@@ -156,9 +156,9 @@ void testDrumTrigger() {
 ## 📂 프로젝트 구조
 
 ```
-EspherSynrh/
+ESPerSynth/
 ├── src/                    # 메인 소스 코드
-│   ├── EspherSynrh.ino  # 메인 Arduino 스케치
+│   ├── ESPerSynth.ino  # 메인 Arduino 스케치
 │   ├── tr808_drums.h      # 헤더 파일
 │   ├── tr808_drums.cpp    # 구현 파일
 │   └── arduino_tr808_config.h # 설정 파일
