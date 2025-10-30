@@ -103,6 +103,53 @@ CPU Frequency: 160MHz
 │   └── performance_comparison.md    # 성능 비교 분석
 ```
 
+## 🚀 PlatformIO 지원
+
+### Arduino IDE 대신 PlatformIO를 사용하는 이유
+
+PlatformIO는 Arduino IDE보다 **3배 빠른 빌드**, **자동 라이브러리 관리**, **강력한 디버깅 도구**를 제공합니다.
+
+**빌드 속도 비교**:
+- Arduino IDE: 45-60초
+- PlatformIO: 15-25초
+
+### 빠른 시작 (PlatformIO)
+
+```bash
+# 1. 저장소 클론
+git clone https://github.com/acidsound/ESPerSynth.git
+cd ESPerSynth
+
+# 2. 예제 폴더로 이동
+cd examples/Audio_EspherSynrh
+
+# 3. 빌드 + 업로드
+pio run --target upload
+
+# 4. 시리얼 모니터
+pio device monitor
+```
+
+### 멀티 환경 빌드
+
+프로젝트 루트의 `platformio.ini`로 모든 버전을 한번에 관리:
+
+```bash
+# Audio.h 버전
+pio run -e audio --target upload
+
+# PWM 버전
+pio run -e pwm --target upload
+
+# Mozzi 버전
+pio run -e mozzi --target upload
+
+# 성능 테스트 버전
+pio run -e performance --target upload
+```
+
+**자세한 내용**: [PlatformIO 개발 가이드](./docs/platformio_guide.md)
+
 ## 🎮 사용법 예제
 
 ### Serial 명령어
@@ -175,6 +222,7 @@ void loop() {
 ## 📖 상세 문서
 
 ### 🔧 빌드 및 설치
+- **[PlatformIO 개발 가이드](./docs/platformio_guide.md)** - ⭐ 권장 개발 환경
 - **[ESP32C3 TR-808 빌드 가이드](./docs/esp32c3_tr808_build_guide.md)** - Arduino IDE 오류 해결
 - **[하드웨어 연결 가이드](./docs/hardware_connection_guide.md)** - Wiring 다이어그램
 
