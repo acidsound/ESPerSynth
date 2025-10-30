@@ -1,4 +1,4 @@
-# ESPherSynrh Arduino IDE 빌드+업로드 완전 가이드
+# ESPerSynth Arduino IDE 빌드+업로드 완전 가이드
 
 ## ❌ 자주 발생하는 오류 및 해결법
 

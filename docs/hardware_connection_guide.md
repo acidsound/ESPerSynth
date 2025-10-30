@@ -1,4 +1,4 @@
-# ESPherSynrh 하드웨어 연결 가이드
+# ESPerSynth 하드웨어 연결 가이드
 
 ## 🛠️ 하드웨어 요구사항
 

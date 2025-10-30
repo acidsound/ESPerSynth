@@ -1,4 +1,4 @@
-# Contributing to ESPherSynrh - TR-808 Drum Machine Library
+# Contributing to ESPerSynth - TR-808 Drum Machine Library
 
 먼저 이 프로젝트에 기여해 주셔서 감사합니다! 以下는 개발 환경 설정 및 코드 기여 가이드라인입니다.
 
